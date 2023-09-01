@@ -1,1 +1,51 @@
-<p>trading-platform works!</p>
+<section class="mt-10 mb-10">
+    <div class="container">
+        <div class="content flex gap-2 lg:gap-0 flex-col-reverse lg:flex-row items-center justify-between">
+            <div>
+                <p class="font-bold text-2xl lg:text-5xl capitalize">trading platform</p>
+            </div>
+           
+                <img class="w-[60%]" src="assets/images/trading-platform.png" alt="">
+          
+        </div>
+    </div>
+</section>
+
+
+<section class="mb-20">
+    <div class="container">
+       <div class="text flex flex-col gap-1 mb-8">
+        <p class="font-bold text-3xl capitalize">how it works</p>
+        <p>You can easily download the app from either the Apple App Store or Google Play Store and start an exciting trading journey.</p>
+       </div>
+
+      <swiper-container  #swiperRef [options]="SwiperConfig" pagination="true" pagination-clickable="true" 
+       free-mode="true" loop="true" speed="700">
+       <swiper-slide class="mb-10">
+        <img  src="assets/images/app-1.png" alt="">
+    </swiper-slide>
+
+    <swiper-slide>
+        <img src="assets/images/app-2.png" alt="">
+    </swiper-slide>
+
+    <swiper-slide>
+        <img src="assets/images/app-3.png" alt="">
+    </swiper-slide>
+
+    <swiper-slide>
+        <img src="assets/images/app-4.png" alt="">
+    </swiper-slide>
+
+    <swiper-slide>
+        <img src="assets/images/app-5.png" alt="">
+    </swiper-slide>
+
+    <swiper-slide>
+        <img src="assets/images/app-1.png" alt="">
+    </swiper-slide>
+    </swiper-container>
+
+      
+    </div>
+</section>
