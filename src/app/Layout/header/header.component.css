@@ -1,9 +1,6 @@
 header ul li a{
     transition:0.3s !important;
 }
-header ul li .active{
-    color:var(--main-color);
-}
-header ul li a:hover {
+header ul li a:focus {
     color: var(--main-color);
 }
