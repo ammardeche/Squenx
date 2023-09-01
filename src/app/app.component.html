@@ -1,0 +1,43 @@
+
+
+<mat-sidenav-container class="h-screen">
+    <mat-sidenav #sidenav mode="over" position="start" [opened]="MobileMenuOpened">
+        <ul (click)="menuOpen()" class=" items-center flex-col">
+            <li class="mt-4 mb-6 flex items-center justify-between">
+                <img class="w-36" src="/assets/images/logo.png" alt="">
+                <img (click)="close()" class="w-8" src="/assets/images/icons8-close-50.png" alt="">
+            </li>
+            <li class="mb-6">
+                <a routerLink="/" class="capitalize font-bold text-sm">home</a>
+            </li>
+
+            <li class="mb-6">
+                <a routerLink="/whats-difference" class="capitalize mb-4 font-bold text-sm">what's defferent?</a>
+            </li>
+
+            <li class="mb-6">
+                <a routerLink="/trading-platform" class="capitalize font-bold text-sm">trading platform</a>
+            </li>
+
+            <li class="mb-6">
+                <a routerLink="/about" class="capitalize font-bold text-sm">about us</a>
+            </li>
+
+            <li class="mb-6"> 
+                <a routerLink="/faq" class="uppercase font-bold text-sm">faq</a>
+            </li>
+
+            <li class="mb-6">
+                <a routerLink="/contact-us" class="capitalize font-bold text-sm">contact us</a>
+            </li>
+            
+          
+            
+        </ul>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>

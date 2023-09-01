@@ -1,0 +1,52 @@
+
+.hero .container::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:1px;
+    background-color:#9ca2aa;
+    bottom:-80px;
+    transform:translateX(50%);
+    left:-50%
+}
+.box .image {
+    background-image: linear-gradient(-45deg,rgb(74,43,198) 0%,rgb(185,25,229) 100%);   
+}
+.box .image img{
+    border:4px solid white;
+}
+
+.cards .card{
+    box-shadow: 5px 20px 75px #00000025;
+    background-color: #f7f8f8;
+}
+
+p{
+    margin:0;
+}
+
+.using .box::after{
+    content:"";
+    border-left: 2px solid #6b42dd;
+    border-top: 2px solid #6b42dd;
+    position:absolute;
+    left : 0; 
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 8px 0 0 0 ;
+}
+
+.using .box::before{
+    content:"";
+    border-right: 2px solid #6b42dd;
+    border-bottom: 2px solid #6b42dd;
+    position:absolute;
+    right : 0; 
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 8px 0 0 0 ;
+    border-radius: 0 0 8px 0 ;
+}
+

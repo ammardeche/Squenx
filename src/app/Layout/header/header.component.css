@@ -1,0 +1,9 @@
+header ul li a{
+    transition:0.3s !important;
+}
+header ul li .active{
+    color:var(--main-color);
+}
+header ul li a:hover {
+    color: var(--main-color);
+}

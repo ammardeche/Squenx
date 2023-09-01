@@ -1,0 +1,19 @@
+
+footer .content::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    height: 1px;
+}
+
+p{
+    margin:0;
+}
+.links a {
+    transition:0.2s;
+}
+.links a:hover{
+    color:#6b42dd;
+}
