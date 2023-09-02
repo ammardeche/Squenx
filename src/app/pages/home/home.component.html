@@ -12,8 +12,8 @@
         quick and easy trading platform for novices and profissionals! <br />
         maximum patential with minimal inverstment & efforts!
       </p>
-      <button
-        class="capitalize w-fit bg-[#6b42dd] text-white font-medium rounded-lg py-4 px-6 flex"
+      <button routerLink="/trading-platform"
+        class="capitalize w-fit bg-[#6b42dd]  text-white font-medium rounded-lg py-4 px-6 flex"
       >
         get started
       </button>
@@ -27,7 +27,7 @@
 
 <section class="mt-40">
   <div class="container">
-    <swiper-container #swiperRef [options]="SwiperConfig" loop="true">
+    <swiper-container #swiperRef [options]="SwiperConfig" navigation="true" loop="true">
       <swiper-slide>
         <div class="box relative mt-20 mb-20">
           <div
@@ -210,7 +210,7 @@
             <p class="text-[#f6f5fd] text-[17px] font-medium">
               Choose your trade's direction, profit level and off you go…
             </p>
-            <button
+            <button routerLink="/trading-platform"
               class="capitalize font-medium bg-[#6b42dd] px-3 py-2 text-lg text-[#f6f5fd]"
             >
               try it now
@@ -239,7 +239,7 @@
               You move up a Level with each successful trade you make. Profit
               exponentially increases at each level.
             </p>
-            <button
+            <button routerLink="/trading-platform"
               class="capitalize font-medium bg-[#6b42dd] px-3 py-2 text-lg text-[#f6f5fd]"
             >
               try it now
@@ -268,7 +268,7 @@
               After a trade is profitable, move on to the next level or cease
               trading to collect your earnings.
             </p>
-            <button
+            <button routerLink="/trading-platform"
               class="capitalize font-medium bg-[#6b42dd] px-3 py-2 text-lg text-[#f6f5fd]"
             >
               try it now
@@ -296,7 +296,7 @@
             <p class="text-[#f6f5fd] text-[17px] font-medium">
               Expand your chances while simultaneously reducing your risk.
             </p>
-            <button
+            <button routerLink="/trading-platform"
               class="capitalize font-medium bg-[#6b42dd] px-3 py-2 text-lg text-[#f6f5fd]"
             >
               try it now
@@ -422,7 +422,7 @@
           <div class=" flex flex-col gap-8">
             <div>
               <p class="text-xl font-bold">Easy trading on the move</p>
-              <a href="" class="capitalize underline text-lg text-[#6b42dd]">get started</a>
+              <a href="" class="capitalize underline text-lg text-[#6b42dd]" routerLink="/trading-platform">get started</a>
             </div>
             <p class="text-lg">
               Using your app trade from the workplace, home, gym, or even your car. Never miss a chance.
@@ -440,7 +440,7 @@
         <div class="flex flex-col gap-1">
             <p class="capitalize font-bold text-xl">Trades Made Simple</p>
             <p class="font-normal text-base text-[#374151]">To reduce your risk, we handled the trade's specifics. Pre-set take profit and stop loss limits threshold for winning or losing</p>
-            <a href="" class=" text-lg mb-2 text-[#6b42dd]">learn more</a>
+            <a href="" class=" text-lg mb-2 text-[#6b42dd]" routerLink="/whats-difference">learn more</a>
             <p class=" text-base text-[#374151]">To ensure high liquidity, low volatility, and minimal distraction, all trades are executed on EUR/USD</p>
         </div>
        
@@ -533,7 +533,7 @@
                 
             </div>
 
-            <button class="text-white w-fit bg-[#6b42dd] font-medium rounded-lg text-lg py-3 px-5">start now</button>
+            <button class="text-white w-fit bg-[#6b42dd] font-medium rounded-lg text-lg py-3 px-5" routerLink="/trading-platform">start now</button>
         </div>
 
         <div class="image flex flex-row justify-center lg:justify-end">
@@ -657,8 +657,8 @@
       </div>
 
       <div class="btns flex flex-wrap lg:px-14 lg:flex-nowrap gap-2">
-        <button class="capitalize   bg-[#00004b] text-white py-2 px-3 rounded-lg lg:text-base text-sm">more answares to your questions</button>
-        <button class="capitalize  bg-[#6b42dd] text-white py-2 px-3 rounded-lg lg:text-base text-sm">start earning today</button>
+        <button class="capitalize   bg-[#00004b] text-white py-2 px-3 rounded-lg lg:text-base text-sm" routerLink="/faq">more answares to your questions</button>
+        <button class="capitalize  bg-[#6b42dd] text-white py-2 px-3 rounded-lg lg:text-base text-sm" routerLink="trading-platform">start earning today</button>
       </div>
     </div>
   </div>
